@@ -1,0 +1,198 @@
+@font-face{
+    font-family: Gruenewald;
+    src: url(fonts/GruenewaldVAnormal.ttf);
+}
+@font-face{
+    font-family: Scallywag;
+    src: url(fonts/Scallywag-Regular.ttf)
+}
+@font-face{
+    font-family: "Just Tell Me What";
+    src: url(fonts/jtmw.otf)
+}
+@font-face{
+    font-family: Abel;
+    src: url(fonts/abel-regular.ttf)
+}
+@font-face{
+    font-family: "Potatoes and Peas";
+    src: url(fonts/MB_PotatoesAndPeas.ttf)
+}
+@font-face{
+    font-family: Shorelines;
+    src: url(fonts/Shorelines-Script-Bold.otf)
+}
+
+body{
+    background-color: #d8f2ff;
+    background-image: url(assets/bgi.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-attachment: fixed;
+    color: #262d30;
+    font-family: "Abel", Arial, sans-serif;
+    font-size: 18px;
+}
+
+h1{
+    margin-left: 40px;
+    font-family: "Gruenewald", Verdana, sans-serif;
+    font-size: 45px;
+}
+
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #e0feff;
+    width: 100%;
+    margin: -18px 0 0 -8px;
+    padding: 0;
+    position: fixed;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    color: #232b38;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Just Tell Me What", Scallywag, Courier, sans-serif
+}
+.navbar li a:hover {
+    background-color: #ff837c;
+    color: white;
+}
+
+#sched {
+    border: solid 2px;
+    width: 800px;
+    margin: 20px auto 20px auto;
+    padding: 15px;
+    background: rgba(216, 242, 255, .5);
+    text-align: center;
+}
+#sched table {
+    width: 750px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+#sched h2 {
+    margin-top: 0;
+}
+
+#like {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#likes {
+    display: block;
+    margin-left: 40%; 
+    margin-right:auto;
+}
+#likes h3 {
+    margin-bottom: 3px;
+}
+
+#manman {
+    opacity: 0.75;
+    float: right;
+    margin-right: 75px;
+    padding-bottom: 100px;
+}
+#manman:hover {
+    opacity: 1.0;
+}
+
+#nametag {
+    font-family: Scallywag, Courier, serif;
+    margin: 60px;
+    display: block;
+}
+
+#somedia {
+    background: rgba(216, 242, 255, .7);
+    border: solid 2px;
+    display: inline-block;
+    margin-left: 65px;
+    padding: 10px 0 5px 10px;
+}
+#somedia img {
+    opacity: .8;
+    width: 60px;
+    padding: 5px 15px 5px 5px;
+}
+#somedia img:hover{
+    opacity: 1;
+    width: 70px;
+    padding: 0 10px 0 0;
+}
+
+#quote {
+    text-align: center;
+    font-family: "Potatoes and Peas", Abel, Verdana, sans-serif;
+    font-size: 35px;
+    margin: 30px 0 0 0;
+}
+#quotesrc {
+    float: right;
+    font-family: Shorelines, "Franklin Gothic Medium", sans-serif;
+    font-size: 35px;
+    margin: 0 45px 30px 0;
+}
+
+#intro {
+    width: 750px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#resume {
+    border: solid 2px;
+    width: 800px;
+    margin: 20px auto 20px auto;
+    padding: 15px;
+    background: rgba(216, 242, 255, .5);
+    text-align: center;
+}
+#resume table {
+    width: 750px;
+    margin-left:auto; 
+    margin-right:auto;
+    padding-top: 0;
+    border-spacing: 10px;
+}
+
+#notes {
+    border: solid 2px;
+    width: 300px;
+    margin: 20px auto 20px auto;
+    padding: 15px;
+    background: rgba(216, 242, 255, .5);
+}
+#notes tr {
+    width: 250px;
+    padding: 0 auto 0 auto;
+}
+#notes tr td img {
+    width: 64px;
+    margin: 0;
+    text-align: left;
+}
+#notes tr td {
+    width: 100px;
+}
+#notes .numbersOdd {
+    text-align: right;
+}
+
+footer {
+    bottom: 0;
+    font-family: "Just Tell Me What", fantasy;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+}
