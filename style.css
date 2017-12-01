@@ -189,6 +189,13 @@ h1{
     text-align: right;
 }
 
+#unith {
+    text-align: center;
+}
+#unith h1 {
+    margin-left: 0;
+}
+
 footer {
     bottom: 0;
     font-family: "Just Tell Me What", fantasy;
